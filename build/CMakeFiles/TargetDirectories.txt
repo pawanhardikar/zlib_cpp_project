@@ -1,0 +1,16 @@
+D:/zlib_project/build/CMakeFiles/my_app.dir
+D:/zlib_project/build/CMakeFiles/PACKAGE.dir
+D:/zlib_project/build/CMakeFiles/INSTALL.dir
+D:/zlib_project/build/CMakeFiles/ALL_BUILD.dir
+D:/zlib_project/build/CMakeFiles/ZERO_CHECK.dir
+D:/zlib_project/build/zlib/CMakeFiles/zlib.dir
+D:/zlib_project/build/zlib/CMakeFiles/zlibstatic.dir
+D:/zlib_project/build/zlib/CMakeFiles/PACKAGE.dir
+D:/zlib_project/build/zlib/CMakeFiles/INSTALL.dir
+D:/zlib_project/build/zlib/CMakeFiles/ALL_BUILD.dir
+D:/zlib_project/build/zlib/test/CMakeFiles/zlib_example.dir
+D:/zlib_project/build/zlib/test/CMakeFiles/minigzip.dir
+D:/zlib_project/build/zlib/test/CMakeFiles/zlib_static_example.dir
+D:/zlib_project/build/zlib/test/CMakeFiles/static_minigzip.dir
+D:/zlib_project/build/zlib/test/CMakeFiles/PACKAGE.dir
+D:/zlib_project/build/zlib/test/CMakeFiles/INSTALL.dir
