@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Configure') {
+            steps {
+                bat 'cmake -S . -B build'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'cmake --build build --config Release'
+            }
+        }
+
+        stage('Run') {
+            steps {
+                bat '.\\build\\Release\\my_app.exe'
+            }
+        }
+    }
+}

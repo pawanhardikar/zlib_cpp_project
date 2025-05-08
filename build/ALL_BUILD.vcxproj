@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\zlib_project\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\zlib_project\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\zlib_project\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\zlib_project\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\zlib_project\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\zlib_project\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\zlib_project\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\zlib_project\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -173,33 +173,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\zlib_project\build\zlib\test\minigzip.vcxproj">
-      <Project>{8E573339-730F-37C2-94F8-55AC38C86015}</Project>
-      <Name>minigzip</Name>
-    </ProjectReference>
     <ProjectReference Include="D:\zlib_project\build\my_app.vcxproj">
       <Project>{1EB2E516-89E3-38B5-B8D6-3430B4FDD380}</Project>
       <Name>my_app</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\zlib_project\build\zlib\test\static_minigzip.vcxproj">
-      <Project>{299B4341-72D2-35FF-8DB4-8FA9898CD9AC}</Project>
-      <Name>static_minigzip</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\zlib_project\build\zlib\zlib.vcxproj">
-      <Project>{EABA5CB2-2B03-37EE-98EB-5F9AE58D12CB}</Project>
-      <Name>zlib</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\zlib_project\build\zlib\test\zlib_example.vcxproj">
-      <Project>{2127C9A5-E23C-332D-AA25-320B64FB9675}</Project>
-      <Name>zlib_example</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\zlib_project\build\zlib\test\zlib_static_example.vcxproj">
-      <Project>{258A0E05-2EC6-321B-B333-DD1238C6EB13}</Project>
-      <Name>zlib_static_example</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\zlib_project\build\zlib\zlibstatic.vcxproj">
-      <Project>{9208B753-1966-3D37-87EE-CAEA3664B25C}</Project>
-      <Name>zlibstatic</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

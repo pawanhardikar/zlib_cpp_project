@@ -1,0 +1,27 @@
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# CMake build directory
+build/
+
+# Visual Studio generated files
+*.vcxproj
+*.vcxproj.user
+*.sln
+*.suo
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.CMakeLists.txt.user
+
+# Conan-generated build folders
+conan.lock
+*.conan
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
