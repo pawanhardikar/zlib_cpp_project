@@ -1,3 +1,0 @@
-D:/zlib_project/build/CMakeFiles/my_app.dir
-D:/zlib_project/build/CMakeFiles/ALL_BUILD.dir
-D:/zlib_project/build/CMakeFiles/ZERO_CHECK.dir
